@@ -1,7 +1,8 @@
 # Stupidity
 ## It's too early for this shit
 [Link](https://www.google.com/search?q=revenge+minecraft+lyrics&rlz=1C1VDKB_enUS1022US1022&ei=hOwuZIqsNJLMkPIP0K2hoAk&oq=revenge+mine&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMg4IABCKBRCxAxCDARCRAjIICAAQigUQkQIyCAgAEIoFEJECMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoICAAQgAQQsQM6BwgAEIoFEEM6DQguEIMBELEDEIoFEEM6DQguEIoFELEDEIMBEEM6CAgAEIoFELEDOggILhCABBCxAzoOCC4QgAQQsQMQgwEQ1AI6CwguENQCELEDEIAEOgUILhCABEoECEEYAFDFA1iFFWDtGWgBcAF4AIABgQGIAYMGkgEDOC4ymAEAoAEByAEKwAEB&sclient=gws-wiz-serp)
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHNUUTwhsXDY&psig=AOvVaw2rg9YO4Ii7Ny7Ilt8DABEO&ust=1680883749812000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMD2-YrSlf4CFQAAAAAdAAAAABAD)
+![Image](https://www.google.com/urlsa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHNUUTwhsXDY&psig=AOvVaw2rg9YO4Ii7Ny7Ilt8DABEO&ust=1680883749812000&source=images&cd=fe&ved=0CA8QjRxqFwoTCMD2-YrSlf4CFQAAAAAdAAAAABAD)
+---
 *Creeper?*
 **Aww, man**
 So we back in the mine
