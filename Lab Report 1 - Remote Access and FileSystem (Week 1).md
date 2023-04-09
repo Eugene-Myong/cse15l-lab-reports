@@ -1,7 +1,7 @@
 # How to Log into a Course-Specific Account on ieng6
 ## A Tutorial for UCSD Students
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/hi%20shitpost.jpg)
+![Image](hi shitpost.jpg)
 
 ---
 
