@@ -26,12 +26,12 @@ Now you've got VSCode downloaded. Great, we can move on.
 
 Next, after you've got it set up, it should look (something) like this: 
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20main%20menu%20screenshot.png)
+![Image](./vsc%20main%20menu%20screenshot.png)
 
 From here, open a terminal in VScode by clicking `Terminal` at the top bar then clicking on `New Terminal`.
 After that, you should see this thing at the bottom (or side, or somewhere on screen): 
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%20screenshot.png)
+![Image](vsc%20terminal%20menu%20screenshot.png)
 
 Just a quick note: The `PS C:\Users\eugen>` just means the current `User` profile I'm on is `eugen`. The `eugen` part should be whatever you named your profile.
 
@@ -46,7 +46,7 @@ To do this, follow these steps:
 3. Select "Git Bash" from the options (if you don't see anything, give it a minute or two to load.).
 4. Go to your terminal and select the `+` option which is located here 
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%202%20ss.png)
+![Image](vsc%20terminal%20menu%202%20ss.png)
 
 7. The new terminal will be a Bash terminal. You can also press that little arrow to toggle between other terminals.
 
@@ -75,7 +75,7 @@ Password:
 ```
 Type in your password and now you're in! You should see something like this:
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/ss%20terminal%20shit.png)
+![Image](ss%20terminal%20shit.png)
 
 Where lots of the text may differ based on your last login, users, load and such.
 
@@ -96,7 +96,7 @@ Below are some commands to use while connected to the server, as well as my disc
 
 Here is a screenshot from one of my sessions where I played around with some code. See if you can trace it:
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/terminal%20commands%20ss.png)
+![Image](terminal%20commands%20ss.png)
 
 
 And that's it for now. Thanks for reading!
