@@ -88,5 +88,3 @@ Here is a screenshot from one of my sessions where I played around with some cod
 
 
 And that's it for now. Thanks for reading!
-
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20menu%20screenshot.png)
