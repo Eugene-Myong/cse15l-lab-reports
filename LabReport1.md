@@ -1,7 +1,7 @@
 # How to Log into a Course-Specific Account on ieng6
 ## A Tutorial for UCSD Students
 
-![Image]("./hi shitpost.jpg")
+![Image](./hishitpost.jpg)
 
 ---
 
