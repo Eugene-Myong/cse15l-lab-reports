@@ -16,7 +16,7 @@ This tutorial assumes you already set up your cs15lsp23zz account, with zz being
 First things first, you need to install **VSCode**.  You can download it here at this link: [VSCode](https://code.visualstudio.com/).
 It should look something like this: 
 
-![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20menu%20screenshot.png)
+![Image](./vsc%20menu%20screenshot.png)
 
 Just follow the setup process (default options for all are ok).
 
