@@ -14,17 +14,25 @@ So you wanna learn how to log into a remote server, and I have to make this blog
 This tutorial assumes you already set up your cs15lsp23zz account, with zz being any two letters that correspond to your account.
 
 First things first, you need to install **VSCode**.  You can download it here at this link: [VSCode](https://code.visualstudio.com/).
-It should look something like this: ![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20menu%20screenshot.png)
+It should look something like this: 
+
+![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20menu%20screenshot.png)
+
 Just follow the setup process (default options for all are ok).
 
 Now you've got VSCode downloaded. Great, we can move on.
 
 ### Terminal and Installing Git
 
-Next, after you've got it set up, it should look (something) like this: ![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20main%20menu%20screenshot.png)
+Next, after you've got it set up, it should look (something) like this: 
+
+![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20main%20menu%20screenshot.png)
 
 From here, open a terminal in VScode by clicking `Terminal` at the top bar then clicking on `New Terminal`.
-After that, you should see this thing at the bottom (or side, or somewhere on screen): ![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%20screenshot.png)
+After that, you should see this thing at the bottom (or side, or somewhere on screen): 
+
+![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%20screenshot.png)
+
 Just a quick note: The `PS C:\Users\eugen>` just means the current `User` profile I'm on is `eugen`. The `eugen` part should be whatever you named your profile.
 
 Now that you have VSCode and a Terminal ready, you need to download **Git**, which you can get here: [Git for Windows.](https://gitforwindows.org/)
@@ -36,8 +44,11 @@ To do this, follow these steps:
 1. Open the command palette using `Ctrl` + `Shift` + `p`
 2. Type in "Select Default Profile" and click on it 
 3. Select "Git Bash" from the options (if you don't see anything, give it a minute or two to load.).
-4. Go to your terminal and select the `+` option which is located here ![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%202%20ss.png)
-5. The new terminal will be a Bash terminal. You can also press that little arrow to toggle between other terminals.
+4. Go to your terminal and select the `+` option which is located here 
+
+![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/vsc%20terminal%20menu%202%20ss.png)
+
+7. The new terminal will be a Bash terminal. You can also press that little arrow to toggle between other terminals.
 
 Congratulations, now you have a working Git Bash Terminal and can use it to type some commands and access a remote server. But how? 
 
@@ -84,6 +95,7 @@ Below are some commands to use while connected to the server, as well as my disc
 * `exit` - will leave the server.
 
 Here is a screenshot from one of my sessions where I played around with some code. See if you can trace it:
+
 ![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/terminal%20commands%20ss.png)
 
 
