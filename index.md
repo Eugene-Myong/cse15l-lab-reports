@@ -1,7 +1,7 @@
 # Stupidity
 ## It's too early for this shit
 [Link](https://www.google.com/search?q=revenge+minecraft+lyrics&rlz=1C1VDKB_enUS1022US1022&ei=hOwuZIqsNJLMkPIP0K2hoAk&oq=revenge+mine&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgAMg4IABCKBRCxAxCDARCRAjIICAAQigUQkQIyCAgAEIoFEJECMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoICAAQgAQQsQM6BwgAEIoFEEM6DQguEIMBELEDEIoFEEM6DQguEIoFELEDEIMBEEM6CAgAEIoFELEDOggILhCABBCxAzoOCC4QgAQQsQMQgwEQ1AI6CwguENQCELEDEIAEOgUILhCABEoECEEYAFDFA1iFFWDtGWgBcAF4AIABgQGIAYMGkgEDOC4ymAEAoAEByAEKwAEB&sclient=gws-wiz-serp)
-![Image](hi shitpost.jpg)
+![Image](https://github.com/Eugene-Myong/cse15l-lab-reports/blob/main/hi%20shitpost.jpg)
 
 ---
 
