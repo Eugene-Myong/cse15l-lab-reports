@@ -52,7 +52,7 @@ In reality, all I did was give the website a **path** and a **query**. A path te
 
 Now for some technical stuff (that I have to put in here): The methods being called in `StringServer.java`, which is where this is all happening, are the main method and the **handleRequest** method. The main method is in the **StringServer** class, and **handleRequest** is in the **Handler** class. 
 
-The only relevant argument for **handleRequest** is the **URI** url, which is the url of the website. There are two relevant fields though (of **Handler**), **message** which holds the queries you want to add to the website, and **parameters** which is an array of Strings that holds each part of the query that is split by the = sign. In the first spot (index 0) it holds "s", and in the second is "Hello." 
+The only relevant argument for **handleRequest** is the URI **url**, which is the url of the website. There are two relevant fields (of **Handler**), String **message** which holds the message part of the query you want to add to the website, and String array**parameters,** which is an array of Strings that holds each part of the query that is split by the = sign. In the first spot (index 0) it holds "s", and in the second is "Hello." 
 
 Both **message** and **parameters** change each time you type in a new thing to add, **message** will update to have the new message you want to add on a new line, and **parameters** will update to the new **query** part of the url. **URI** will also change to whatever new url you have decided to type.
 
@@ -66,11 +66,13 @@ http://localhost:5566/add-message?s=According%20to%20all%20known%20laws%20of%20a
 ```
 Quick note: not only is my argument long but also every space was replaced with %20, wihch I'm guessing is the label for a space.
 
-Anyway, the same methods are called, the main method and **handleRequest**. Same relevant argument, the **URI** url. the **message** field is updated to include the message "According to all knwon laws of aviation, there is no way a be should be able to fly.", and **parameters** holds "s" as usual in the first spot, and our message in the second. Same changes to **URI** as well.
+Anyway, the same methods are called, the main method and **handleRequest**. Same relevant argument, **url**, which is changed to the new url at the top. The **message** field is updated to include the message "According to all knwon laws of aviation, there is no way a be should be able to fly.", and **parameters** holds "s" as usual in the first spot, and our new message in the second. 
+
+To summarize, **message,** **parameters,** and **url** will all be updated everytime a new message is added to the query part of the url (provided you use the same path). **message** will be the message you want to add, **parameters** will have "s" in the first slot and your message in the second, and **url** will be the url of the ewbsite that includes your message.
 
 Wow that was a lot. If you made it this far, feel free to send me a tip so I can get some good food tonight instead of dining hall food. Or don't, but then I will be sad. And you don't want that right? Right?
 
-##Part 2: Debugging
+## Part 2: Debugging
 ### When the code don't work
 
 We've all had that time when our code looks fine and yet it still won't run or gives some wonky input. So, what should you do? The answer is: switch majors!
@@ -90,7 +92,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
   ```
-Here's the issue: it doesn't work. When you run this code and expect an array with all the elements reversed, it just returns an array of all 0s.
+Here's the issue: it doesn't work. This method is supposed to return a new array that is the reverse order of the **arr** array it just returns an array of all 0s.
 For example here is a failure-inducing input for the test:
 ```
 @Test
@@ -100,11 +102,13 @@ For example here is a failure-inducing input for the test:
     assertArrayEquals(answer, ArrayExamples.reversed(input));
   }
 ```
-Ans here is the symptom (or the behavior we see as a result of running the test): 
+And here is the symptom (or the behavior we see as a result of running the test): 
 
 ![Image](lr2-5.png)
 
-But it does worrk. For an array of all 0s:
+As you can see, the test expects the first element to be 5, as 5 is the last element of **arr.** The method, however, says no and returns 0.
+
+But it does work. For an array of all 0s:
 ```
 @Test
   public void testReversedAll0(){
@@ -119,7 +123,10 @@ But it does worrk. For an array of all 0s:
  
 So what's wrong? Well I'm glad you asked.
 
-The orignial code has two problems: first is that in it's for loop, it is changing the argument array **arr** instead of **newArray**, which is the one we want to return. Second, it's returning arr instead of **newArray**. What this means is that instead of setting the first element of **newArray** to the last element of **arr**, it sets the first element of arr to the last element of **newArray**. And in returning **arr**, it is returning an array of all zeroes, because **newArray** was initialized to be empty.
+The orignial code has two problems: first is that in it's for loop, it is changing the argument array **arr** instead of **newArray**, which is the one we want to return. Second, it's returning **arr** instead of **newArray**. What this means is that instead of setting the first element of **newArray** to the last element of **arr**, it sets the first element of **arr** to the last element of **newArray** (which is 0). And in returning **arr**, it is returning an array of all zeroes, because **newArray** was initialized to be empty.
+
+So how do we fix it? Well, here's the problematic code again:
+
  ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -129,7 +136,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
  ```
- So here's the fix for that. 
+ And here's the fix for that. 
  ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -139,10 +146,12 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
-In changing the statement inside the for loop, I've gone and switched the arrays. Now the first element in **newArray** will be set to the last element of **arr**.
-I've also changed the return statement to return **newArray**, as the method specifically calls for returning a new Array.
+  
+By switching the **arr** and **newArray** parts of the for loop, now the first element in **newArray** will be set to the last element of **arr,** just like we want it to. This will also work for the rest of the loop.
+I've also changed the return statement to return **newArray** instead of **arr,** so we get the new array with the reverse of **arr** instead of an array of all zeroes.
 
-And that's it for this tutorial. Remember to pay your billing statment or I won't let you access this file. How I'll do that? I have no idea but I'll find a way.
+And that's it for this tutorial. Remember to pay your billing statment so I can keep going here (it ain't cheap you know).
+
 Thanks for reading!
 
 
