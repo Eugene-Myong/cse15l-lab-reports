@@ -150,6 +150,14 @@ static int[] reversed(int[] arr) {
 By switching the **arr** and **newArray** parts of the for loop, now the first element in **newArray** will be set to the last element of **arr,** just like we want it to. This will also work for the rest of the loop.
 I've also changed the return statement to return **newArray** instead of **arr,** so we get the new array with the reverse of **arr** instead of an array of all zeroes.
 
+## Part 3: What have we learned?
+### Wait I forgot let me pull up my notes.
+
+These last two labs were quite interesting. Personally I found Week 2 to be more interesting because I got to make my own website! It doesn't do much, but it's kind of cool. I'd say that would be my favorite thing I learned that I didn't know. Now I can !@#$ around and find out some more, and who knows maybe I'll be able to make some kind of cool website that says like "Give me money" or something. Just an idea.
+
+It was also interesting to learn that I can host a server on my computer just like that (I'm sure it's more complicated but I'll learn about that whenever we learn about it in class). I think something like that is called a "Raspberry Pie," which I heard because one of my friends got one for their birthday so they could host a Minecraft Server but then got a notice from their ISP that they can't do that (lol) so I guess I won't be doing that anytime soon. 
+
+
 And that's it for this tutorial. Remember to pay your billing statment so I can keep going here (it ain't cheap you know).
 
 Thanks for reading!
