@@ -6,7 +6,7 @@
 ---
 
 Ah, how do you do? We are always happy to have returning customers. In fact, you've been so loyal to us we'd like to offer you a new rate! (Wow! So cool!) I know right?
-Your new rate is $150 USD per hour. You may be thinking, "Wait, that's more!" And you are right, but hear me out. Using my supreme knowledgeof numbers as a math major, 
+Your new rate is $150 USD per hour. You may be thinking, "Wait, that's more!" And you are right, but hear me out. Using my supreme knowledge of numbers as a math major, 
 I have made it so that one of us benefits off of this new arrangement. Who is it? I don't know, but maybe we'll find out later. Let's get started.
 
 ---
@@ -21,9 +21,9 @@ Here's how you would use it:
 grep (argument1) (argument2)
 ```
 `grep` is the command itself, so you gotta write that out. `(argument1)` is the thing you are searching for, most often a string. `(argument2)` is the file that
-you are searching in.
+you are searching in. The command will return all the lines that have that `(argument1)`.
 
-Here's a real life example of it. Let's start in the directory **technical**. This directory has four sub-directories in it, **911report1, biomed, government**, and
+Here's an example of it. Let's start in the directory **technical**. This directory has four sub-directories in it, **911report1, biomed, government**, and
 **plos**. Let's start in **plos** (because it sounds funny). In **plos** there are a lot of text files. Let's go into the
 first one, **journal.pbio.0020001.txt**. 
 
@@ -238,7 +238,7 @@ Even more weird spacing. Hmm. That's odd. Perhpas we'll find a reason for it lat
 
 It would be useful if we could use something other than a string to search for, wouldn't it? Well guess what, `grep -f`s got your back.
 
-`grep -f` takes a file instead of a string for its `(argument1)`. Most commonly this is a text file, and that's what the `-f` stands for: file!
+`grep -f` takes a file instead of a string for its `(argument1)`. Most commonly this is a text file, and that's what the `-f` stands for: file! What using a file instead of a word means is that the command `grep` will run for each line in that file.
 
 Here's how it looks:
 ```
@@ -254,7 +254,7 @@ Europe
 
 This text file resides in `techincal`. We will be using this file to search through **journal.pbio.0020001.txt**.
 
-To use `grepf.txt` on `journal.pbio.0020001.txt`, we type in the following:
+To use `grepf.txt` on **journal.pbio.0020001.txt**, we type in the following:
 ```
 grep -f /c/Users/eugen/Documents/GitHub/docsearch/technical/grepf.txt journal.pbio.0020001.txt
         (SCI). North America and Europe clearly dominate the number of scientific publications
@@ -353,7 +353,7 @@ science
 science
 science
 ```
-Yeah, it's literally just a bunch of *science*s. This could be useful for counting all the instances of a single word, but there is most definitely a better and easier command to use for that than manually counting them all. 
+Yeah, it's literally just a bunch of *science*s. This could be useful for counting all the instances of a single word, but there is most definitely a better and easier command to use for that than manually counting them all. Perhaps we'll see it late in the quarter, or we already have.
 
 Here's another use of it though, this time looking for "after" in **1468-6708-3-1.txt**:
 ```
