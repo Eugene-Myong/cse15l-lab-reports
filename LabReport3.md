@@ -9,6 +9,10 @@ Ah, how do you do? We are always happy to have returning customers. In fact, you
 Your new rate is $150 USD per hour. You may be thinking, "Wait, that's more!" And you are right, but hear me out. Using my supreme knowledge of numbers as a math major, 
 I have made it so that one of us benefits off of this new arrangement. Who is it? I don't know, but maybe we'll find out later. Let's get started.
 
+IMPORTANT: I don't know why there appears to be random side scroll bars on the pdf version, I didn't use any of them while making this. This only happens when I try and save it as a pdf, otherwise it looks completely normal. I can't think of any fixes either. And even weirder the side scroll bars are like on the words too, which I am 99% sure is not supposed to happen.
+Here's the link to this lab report (at least I hope it works): https://eugene-myong.github.io/cse15l-lab-reports/LabReport3.html
+
+
 ---
 ## Part 1: grep
 ### No I didn't misspell grab
