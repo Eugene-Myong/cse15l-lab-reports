@@ -28,7 +28,7 @@ Note: Keys on your keyboard will be shown as `key`, and when the key looks like 
 
 **Moving around**: When you enter a file with the **vim** command, you will be able to freely navigate the contents of that file using your cursor. The easiest way to do this is through the arrow keys, with each arrow key corresponding to their directions. If you don't have any arrow keys though, fear not, for you can use `h` to go left, `l` to go right, `k` to go up, and `j` to go down. 
 
-**Normal Mode**: Normal mode is where you can naviagte the file with your cursor. Whenver you enter another mode and want to get back to normal mode, press `ESC`.
+**Normal Mode**: Normal mode is where you can naviagte the file with your cursor. Whenever you enter another mode and want to get back to normal mode, press `ESC`.
 
 **Deleting a character**: To delete a character, all you have to do is press `x` and the character under your cursor will be sent to the shadow realm. Sorry buddy.
 
@@ -69,6 +69,49 @@ Also, here is a handy list of things to copy and paste with ease:
 ssh cs15lsp23__@ieng6.ucsd.edu
 git clone https://github.com/ucsd-cse15l-s23/lab7
 
+Last note (I promise) if I type (hold) after a key I am only holding it until the next key press. For example, `<SHIFT>`(hold) `<k>` means I am typing a K (capital k).
+
+---
 ### Step 1: Long into ieng6
 
-*Keys Pressed*: `<CTRL>`(hold) `<V>` `<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<LEFT>``<DELETE>``<DELETE>` `<E>``<R>``<ENTER>`
+*Keys Pressed*: `<CTRL>`(hold) `<V>`(I had *ssh cs15lsp23__@ieng6.ucsd.edu* copied) `<LEFT>` `<LEFT>``<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<DELETE>` `<DELETE>` `<e>` `<r>` `<ENTER>`
+
+![Image](41.png)
+
+---
+### Step 2: Clone the fork of the repo into my ieng6 account
+*Keys Pressed*: `<CTRL>`(hold) `<V>`(I had *git clone https://github.com/ucsd-cse15l-s23/lab7* copied) `<ENTER>` `<l>` `<s>` `<ENTER>` 
+
+![Image](42.png)
+
+---
+### Step 3: Run tests to show they fail
+*Keys Pressed*: `<c>` `<d>` `<l>` `<a>` `<b>` `<7>` `<ENTER>` `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
+
+![Image](43.png)
+
+---
+### Step 4: Making the edit
+
+*Keys Pressed*: `<v>` `<i>` `<m>` `<SPACE>` `<SHIFT>`(hold) `<l>` `<i>` `<s>` `<t>` `<SHIFT>`(hold) `<e>` `<x>` `<a>` `<m>` `<p>` `<l>` `<e>` `<s>` `<.>` `<j>` `<a>` `<v>` `<a>`
+
+This is what I looked like after initializing **vim** on **ListExamples.java**
+
+![Image](441.png)
+
+*Keys Pressed*: `<DOWN>` `<DOWN>` `<DOWN>` `<DOWN>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<x>` `<i>` `<2>` `<ESC>` `<SHIFT>`(hold) `<;>` `<w>` `<q>` `<ENTER>` 
+
+Here's what it looks like after that final ENTER:
+
+![Image](442.png)
+
+---
+### Step5: Run tests to show they pass
+*Keys Pressed*: `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
+
+![Image](45.png)
+
+---
+### Step 6: Committing and pushing
+
+*Keys Pressed*: this isnt working for some reason
