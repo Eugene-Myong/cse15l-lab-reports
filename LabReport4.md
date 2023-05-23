@@ -71,7 +71,7 @@ Last note (I promise) if I type (hold) after a key I am only holding it until th
 ---
 ### Step 1: Long into ieng6
 
-*Keys Pressed*: `<CTRL>`(hold) `<V>`(I had "ssh cs15lsp23__@ieng6.ucsd.edu" copied) `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<DELETE>` `<DELETE>` `<e>` `<r>` `<ENTER>`
+Keys Pressed: `<CTRL>`(hold) `<V>`(I had "ssh cs15lsp23__@ieng6.ucsd.edu" copied) `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<LEFT>` `<DELETE>` `<DELETE>` `<e>` `<r>` `<ENTER>`
 
 ![Image](41.png)
 
@@ -80,7 +80,7 @@ For this step all I did was copy paste the command to log into the terminal and 
 ---
 ### Step 2: Clone the fork of the repo into my ieng6 account
 
-*Keys Pressed*: `<CTRL>`(hold) `<V>`(I had "git clone https://github.com/ucsd-cse15l-s23/lab7" copied) `<ENTER>` `<l>` `<s>` `<ENTER>` 
+Keys Pressed: `<CTRL>`(hold) `<V>`(I had "git clone https://github.com/ucsd-cse15l-s23/lab7" copied) `<ENTER>` `<l>` `<s>` `<ENTER>` 
 
 ![Image](42.png)
 
@@ -89,7 +89,7 @@ Here I cloned the repository and used the command *ls* to see all the directorie
 ---
 ### Step 3: Run tests to show they fail
 
-*Keys Pressed*: `<c>` `<d>` `<l>` `<a>` `<b>` `<7>` `<ENTER>` `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
+Keys Pressed: `<c>` `<d>` `<l>` `<a>` `<b>` `<7>` `<ENTER>` `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
 
 ![Image](43.png)
 
@@ -98,13 +98,13 @@ I started with changing directories to **lab7**, then using *ls* to see all the 
 ---
 ### Step 4: Making the edit
 
-*Keys Pressed*: `<v>` `<i>` `<m>` `<SPACE>` `<SHIFT>`(hold) `<l>` `<i>` `<s>` `<t>` `<SHIFT>`(hold) `<e>` `<x>` `<a>` `<m>` `<p>` `<l>` `<e>` `<s>` `<.>` `<j>` `<a>` `<v>` `<a>` `<ENTER>`
+Keys Pressed: `<v>` `<i>` `<m>` `<SPACE>` `<SHIFT>`(hold) `<l>` `<i>` `<s>` `<t>` `<SHIFT>`(hold) `<e>` `<x>` `<a>` `<m>` `<p>` `<l>` `<e>` `<s>` `<.>` `<j>` `<a>` `<v>` `<a>` `<ENTER>`
 
 ![Image](441.png)
 
 For this first image, I ran *vim* in the **ListExamples.java** file so I could make the edit. 
 
-*Keys Pressed*: `<DOWN>` `<DOWN>` `<DOWN>` `<DOWN>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<x>` `<i>` `<2>` `<ESC>` `<SHIFT>`(hold) `<;>` `<w>` `<q>` `<ENTER>` 
+Keys Pressed: `<DOWN>` `<DOWN>` `<DOWN>` `<DOWN>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<RIGHT>` `<x>` `<i>` `<2>` `<ESC>` `<SHIFT>`(hold) `<;>` `<w>` `<q>` `<ENTER>` 
 
 Here, I moved my cursor over the one that needed replacing, removed it, and put a two in it's place. I then saved the edits. Here's what it looks like after that final `ENTER`:
 
@@ -113,7 +113,7 @@ Here, I moved my cursor over the one that needed replacing, removed it, and put 
 ---
 ### Step 5: Run tests to show they pass
 
-*Keys Pressed*: `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
+Keys Pressed: `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
 
 ![Image](45.png)
 
@@ -122,19 +122,19 @@ After running *ls* I ran the **test.sh** script again to run the tests and show 
 ---
 ### Step 6: Committing and pushing
 
-*Keys Pressed*: `<g>` `<i>` `<t>` `<SPACE>` `<a>` `<d>` `<d>` `<SHIFT>`(hold) `<l>` `<i>` `<s>` `<t>` `<SHIFT>`(hold) `<e>` `<x>` `<a>` `<m>` `<p>` `<l>` `<e>` `<s>` `<.>` `<j>` `<a>` `<v>` `<a>` `<ENTER>` 
+Keys Pressed: `<g>` `<i>` `<t>` `<SPACE>` `<a>` `<d>` `<d>` `<SHIFT>`(hold) `<l>` `<i>` `<s>` `<t>` `<SHIFT>`(hold) `<e>` `<x>` `<a>` `<m>` `<p>` `<l>` `<e>` `<s>` `<.>` `<j>` `<a>` `<v>` `<a>` `<ENTER>` 
 
 ![Image](4611.png)
 
 For this image, I used the command *git add ListExamples.java* to add **ListExamples.java** to the list of things that I want to commit and push.
 
-*Keys Pressed*: `<g>` `<i>` `<t>` `<SPACE>` `<c>` `<o>` `<m>` `<m>` `<i>` `<t>`  `<ENTER>`
+Keys Pressed: `<g>` `<i>` `<t>` `<SPACE>` `<c>` `<o>` `<m>` `<m>` `<i>` `<t>`  `<ENTER>`
 
 ![Image](4622.png)
 
 Next, I ran *git commit* to enter this screen that prompts for an edit message. The edit message I typed was just "edit message" which was 20 spaces down (because the lines starting with # would be ignored), and the keystrokes I used are down below:
 
-*Keys Pressed*: `<2>` `<0>` `<DOWN>` `<i>` `<ENTER>` `<e>` `<d>` `<i>` `<t>` `<SPACE>` `<m>` `<e>` `<s>` `<s>` `<a>` `<g>` `<e>` `<ESC>` `<SHIFT>`(hold) `<;>` `<w>` `<q>` `<ENTER>` 
+Keys Pressed: `<2>` `<0>` `<DOWN>` `<i>` `<ENTER>` `<e>` `<d>` `<i>` `<t>` `<SPACE>` `<m>` `<e>` `<s>` `<s>` `<a>` `<g>` `<e>` `<ESC>` `<SHIFT>`(hold) `<;>` `<w>` `<q>` `<ENTER>` 
 
 Here's what it looks like after that final ENTER:
 
@@ -142,7 +142,7 @@ Here's what it looks like after that final ENTER:
 
 That extra # is there after edit message because I forgot to delete it. Whoopsie.
 
-*Keys Pressed*: `<ENTER>` `<g>` `<i>` `<t>` `<SPACE>` `<p>` `<u>` `<s>` `<h>` `<SPACE>` `<CTRL>`(hold) `<v>`(I had "git@github.com:Eugene-Myong/lab7.git" copied) `<ENTER>`
+Keys Pressed: `<ENTER>` `<g>` `<i>` `<t>` `<SPACE>` `<p>` `<u>` `<s>` `<h>` `<SPACE>` `<CTRL>`(hold) `<v>`(I had "git@github.com:Eugene-Myong/lab7.git" copied) `<ENTER>`
 
 ![Image](4644.png)
 
