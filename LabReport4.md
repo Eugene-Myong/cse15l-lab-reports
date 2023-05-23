@@ -111,7 +111,7 @@ Here, I moved my cursor over the one that needed replacing, removed it, and put 
 ![Image](442.png)
 
 ---
-### Step5: Run tests to show they pass
+### Step 5: Run tests to show they pass
 
 *Keys Pressed*: `<l>` `<s>` `<ENTER>` `<b>` `<a>` `<s>` `<h>` `<SPACE>` `<t>` `<e>` `<s>` `<t>` `<.>` `<s>` `<h>` `<ENTER>`
 
