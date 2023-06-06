@@ -217,7 +217,7 @@ without technological expertise don't really consider to be important, but boy i
 skill for all CS jobs in today's world.
 
 ## Part 3: Closing Thoughts
-### Bringing a tear to my eye
+### Brings a tear to my eye
 
 Man, here we are. The end of the last Lab Report. I quite enjoyed this course overall. Very low stress and not a lot of work, which I suppose is standard for a two unit 
 class. Nonetheless, I enjoyed how Joe led the lectures (even though admittedly I stopped going to them around Week 7, nothing on him I just burnt out around then for all my 
