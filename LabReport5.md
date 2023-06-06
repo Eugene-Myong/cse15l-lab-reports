@@ -81,6 +81,63 @@ Here's what's inside *lib*:
 
 So he wasn't lying, there really was the *hamcrest* and *junit* files in the directory. 
 
+To view the student submission repository that was used in this scenario, go to this link: https://github.com/ucsd-cse15l-f22/list-methods-corrected.
+This repo has the java file that was used, specifically *ListExamples.java*.
+
+And if you're too lazy to click a single link, here is *ListExamples.java*.
+
+```
+import java.util.ArrayList;
+import java.util.List;
+
+interface StringChecker { boolean checkString(String s); }
+
+class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(s);
+      }
+    }
+    return result;
+  }
+
+
+  // Takes two sorted list of strings (so "a" appears before "b" and so on),
+  // and return a new list that has all the strings in both list in sorted order.
+  static List<String> merge(List<String> list1, List<String> list2) {
+    List<String> result = new ArrayList<>();
+    int index1 = 0, index2 = 0;
+    while(index1 < list1.size() && index2 < list2.size()) {
+      if(list1.get(index1).compareTo(list2.get(index2)) < 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+      }
+      else {
+        result.add(list2.get(index2));
+        index2 += 1;
+      }
+    }
+    while(index1 < list1.size()) {
+      result.add(list1.get(index1));
+      index1 += 1;
+    }
+    while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index2 += 1;
+    }
+    return result;
+  }
+
+
+}
+```
+
 Below is the contents of *grade.sh* before Eugen changed the `;`s to `:`s:
 
 ```
@@ -168,7 +225,7 @@ classes), and I really felt I was learning something useful in both lectures and
 than something the CS department says I have to learn, which may be ironic because the CS department may have said I have to learn all this stuff but small details never
 hurt anybody.
 
-Except Eugen, one small details caused his whole problem to crash. Hm.
+Except Eugen, one small details caused his whole project to crash. Hm.
 
 Ok so small details are important, but that's not what I'm trying to say. I'm trying to say that I enjoyed this course, and I hope that more of my future classes are similar,
 especially the Lab Report Part. I enjoy being able to talk like myself and reading the comments the graders left for me. 
@@ -188,10 +245,12 @@ Second, to Haitong, my Lab TA. Always helpful and the first to notice my Cat pic
 
 Third, to Barack Obama, the former President of the United States of America. I always forget his last name though. Sorry Obama, I'll remember someday.
 
-And lastly, to you, the reader. These Lab Reports would serve no purpsoe without you reading them. Ok they're made for my grade but that's not nearly as important as having 
+And lastly, to you, the reader. These Lab Reports would serve no purpose without you reading them. Ok they're made for my grade but that's not nearly as important as having 
 someone enjoy what I make. At least I hope you enjoyed them. 
 
 And with that, I conclude this Lab Report. 
 
-Thank you so much for reading!
+As always,
+
+Thanks for reading!
 
