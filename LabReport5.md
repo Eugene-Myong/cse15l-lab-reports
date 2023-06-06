@@ -15,7 +15,7 @@ Since you've been so loyal to me, I'd like to present this last Lab Report on th
 and more of a conversation. Who knows, maybe you might find yourself in the very same situation as this student did, and it might be helpful. You'll have to read on to find 
 out.
 
-Quick Note: Right as I was about to submit this I noteced those dastardly Side Scrolling Bars again. Sorry about that, still don't know what's causing them. The first one kind of makes sense since the pdf version cuts off the full line, but the second one is random.
+Quick Note: Right as I was about to submit this I noticed those dastardly Side Scrolling Bars again. Sorry about that, still don't know what's causing them. The first one kind of makes sense since the pdf version cuts off the full line, but the second one is random.
 
 And with that, let's get started.
 
